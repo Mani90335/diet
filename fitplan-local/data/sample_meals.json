@@ -1,0 +1,18 @@
+[
+ {"name":"Idli with sambar","category":"breakfast","calories":340,"protein":12,"carbs":62,"fat":5,"serving":"3 idlis + 1 cup sambar","tags":"vegetarian"},
+ {"name":"Vegetable oats","category":"breakfast","calories":310,"protein":11,"carbs":48,"fat":8,"serving":"1 medium bowl","tags":"vegan"},
+ {"name":"Egg bhurji and toast","category":"breakfast","calories":390,"protein":23,"carbs":34,"fat":18,"serving":"2 eggs + 2 slices toast","tags":"egg"},
+ {"name":"Pesarattu with chutney","category":"breakfast","calories":360,"protein":17,"carbs":51,"fat":10,"serving":"2 medium pesarattu","tags":"vegan"},
+ {"name":"Rice, dal and vegetable curry","category":"lunch","calories":620,"protein":22,"carbs":99,"fat":14,"serving":"1 plate","tags":"vegetarian"},
+ {"name":"Chicken curry, rice and salad","category":"lunch","calories":690,"protein":43,"carbs":75,"fat":22,"serving":"1 plate","tags":"nonveg chicken"},
+ {"name":"Rajma rice and cucumber","category":"lunch","calories":590,"protein":19,"carbs":100,"fat":12,"serving":"1 plate","tags":"vegan"},
+ {"name":"Chapati, dal and paneer","category":"lunch","calories":660,"protein":31,"carbs":76,"fat":24,"serving":"1 plate","tags":"vegetarian dairy"},
+ {"name":"Banana and roasted chana","category":"snack","calories":230,"protein":8,"carbs":42,"fat":3,"serving":"1 banana + 30 g chana","tags":"vegan"},
+ {"name":"Curd and fruit","category":"snack","calories":205,"protein":10,"carbs":29,"fat":5,"serving":"1 small bowl","tags":"vegetarian dairy"},
+ {"name":"Mixed nuts and apple","category":"snack","calories":265,"protein":6,"carbs":30,"fat":14,"serving":"25 g nuts + 1 apple","tags":"vegan nuts"},
+ {"name":"Roasted makhana","category":"snack","calories":175,"protein":5,"carbs":24,"fat":7,"serving":"1 medium bowl","tags":"vegan"},
+ {"name":"Chapati, mixed veg and dal","category":"dinner","calories":580,"protein":21,"carbs":87,"fat":16,"serving":"1 plate","tags":"vegetarian"},
+ {"name":"Grilled chicken and vegetables","category":"dinner","calories":540,"protein":48,"carbs":30,"fat":23,"serving":"1 plate","tags":"nonveg chicken"},
+ {"name":"Paneer bhurji and rotis","category":"dinner","calories":625,"protein":32,"carbs":58,"fat":28,"serving":"1 plate","tags":"vegetarian dairy"},
+ {"name":"Moong dal khichdi","category":"dinner","calories":530,"protein":19,"carbs":83,"fat":13,"serving":"1 plate","tags":"vegan"}
+]
