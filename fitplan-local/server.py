@@ -436,6 +436,10 @@ class App(BaseHTTPRequestHandler):
                     plan=ensure_plan(db,current) if p else None
                     done=[dict(r) for r in db.execute('SELECT day,item FROM completed WHERE day>=?',((date.today()-timedelta(days=14)).isoformat(),))]
                     weights=[dict(r) for r in db.execute('SELECT day,weight FROM weights ORDER BY day DESC LIMIT 60')][::-1]
+                    if p:
+                        height_m=float(p['height'])/100
+                        for entry in weights:
+                            entry['bmi']=round(entry['weight']/(height_m**2),1)
                     self.respond({'profile':p,'metrics':metrics,'today':current,'plan':plan,
                       'completed':done,'weights':weights,'food_count':db.execute('SELECT COUNT(*) FROM foods').fetchone()[0],
                       'source_counts':[dict(r) for r in db.execute('SELECT source,COUNT(*) AS count FROM foods GROUP BY source')],
